@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Bitmap bitmap = ImageUtils.getBitmap(MainActivity.this.getResources(),R.mipmap.ic_launcher);
-                LogUtils.w("MainActivity",wxHelper.sharePic(MainActivity.this,bitmap,10,2,WXHelper.DIALOG)+"");
+                LogUtils.w("MainActivity",wxHelper.sharePic(bitmap,10,2,WXHelper.DIALOG)+"");
             }
         });
     }

@@ -21,8 +21,8 @@ android {
 dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     // Core Base Library
-    compile 'com.github.ChestnutPlus:ModulesCommon:1.0.3'
+    compile 'com.github.ChestnutPlus:ModulesCommon:1.0.9'
     //  WX
-    compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'  //包含统计
-    //compile 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+' //不包含统计
+//    compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'  //包含统计
+    compile 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+' //不包含统计
 }
